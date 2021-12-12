@@ -1,9 +1,11 @@
 # task3
-Data Structure Task3
 Usage of const keyword:
   It can be used with (variables, pointers, functions arguments and return types, class data members, class member functions, objects).
-1.	Variables:-
+  
+1.Variables:-
+
 Specifies that a variable's value is constant and tells the compiler to prevent the programmer from modifying it.
+
 Ex:
 
 ~~~cpp
@@ -15,8 +17,10 @@ int main
 }
 ~~~
 
-2.	Pointers:-
+2.Pointers:-
+
 •	Make a pointer always points at the same memory location which can be useful to have a storage that its value can be changed without moving its memory location.
+
 Ex:
 
 ~~~cpp
@@ -26,8 +30,10 @@ int* const y = &x;
 
 •	A constant pointer is used for returning constant strings and arrays from functions.
 
-3.	Functions arguments and return types:-
+3.Functions arguments and return types:-
+
 •	Used to make the return type or arguments of a function as const.
+
 Ex:
 
 ~~~cpp
@@ -37,10 +43,14 @@ return 1;
 }
 ~~~
 
-4.	Class Data members:-
+4.Class Data members:-
+
 •	Used to initialize a data variable in constructor not during declaration and make it unchangeable.
-5.	Class object:-
+
+5.Class object:-
+
 •	Used to prevent the modification of member variables of an object either by direct modification or by calling functions that set values to object member variables.
+
 Ex (4,5):
 
 ~~~cpp
@@ -61,8 +71,10 @@ int main()
 } 
 ~~~
 
-6.	Class's Member function:-
+6.Class's Member function:-
+
 •	Specifies that the function can’t modify the object when it is called as a const member function will not modify the object or call any non-const member functions that may modify the object.
+
 Ex:
 
 ~~~cpp
@@ -98,7 +110,9 @@ int main()
 
 
 Usage of & operator:
-1.	 It is used as as a reference declarator to represent memory address of a variable.
+
+1.It is used as as a reference declarator to represent memory address of a variable.
+
 Ex:
 
 ~~~cpp
@@ -106,7 +120,8 @@ int num = 20;
 cout << &num;   //prints the memory address of the integer num.
 ~~~
 
-2.	It is used to assign the address of a variable to a pointer.
+2.It is used to assign the address of a variable to a pointer.
+
 Ex:
 ~~~cpp
 int* ptr = &num; 
@@ -114,6 +129,7 @@ int* ptr = &num;
 
 3.	It can be used as a bitwise operator which performs operations on integer data at the individual bit-level. These operations include testing, setting, or shifting the actual bits.
 - The bitwise AND & operator returns 1 if and only if both the operands are 1. Otherwise, it returns 0.
+
 Ex:
 
 ~~~cpp
