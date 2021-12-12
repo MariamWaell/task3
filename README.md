@@ -4,7 +4,7 @@
 
   It can be used with (variables, pointers, functions arguments and return types, class data members, class member functions, objects).
   
- ##  1.Variables:-
+## 1.Variables:-
 
 Specifies that a variable's value is constant and tells the compiler to prevent the programmer from modifying it.
 
@@ -129,7 +129,7 @@ Ex:
 int* ptr = &num; 
 ~~~
 
-3.	It can be used as a bitwise operator which performs operations on integer data at the individual bit-level. These operations include testing, setting, or shifting the actual bits.
+3.It can be used as a bitwise operator which performs operations on integer data at the individual bit-level. These operations include testing, setting, or shifting the actual bits.
 - The bitwise AND & operator returns 1 if and only if both the operands are 1. Otherwise, it returns 0.
 
 Ex:
