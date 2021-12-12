@@ -1,8 +1,10 @@
 # task3
-Usage of const keyword:
+
+# Usage of const keyword:
+
   It can be used with (variables, pointers, functions arguments and return types, class data members, class member functions, objects).
   
-1.Variables:-
+ ## 1.Variables:-
 
 Specifies that a variable's value is constant and tells the compiler to prevent the programmer from modifying it.
 
@@ -17,7 +19,7 @@ int main
 }
 ~~~
 
-2.Pointers:-
+## 2.Pointers:-
 
 •	Make a pointer always points at the same memory location which can be useful to have a storage that its value can be changed without moving its memory location.
 
@@ -30,7 +32,7 @@ int* const y = &x;
 
 •	A constant pointer is used for returning constant strings and arrays from functions.
 
-3.Functions arguments and return types:-
+## 3.Functions arguments and return types:-
 
 •	Used to make the return type or arguments of a function as const.
 
@@ -43,11 +45,11 @@ return 1;
 }
 ~~~
 
-4.Class Data members:-
+## 4.Class Data members:-
 
 •	Used to initialize a data variable in constructor not during declaration and make it unchangeable.
 
-5.Class object:-
+## 5.Class object:-
 
 •	Used to prevent the modification of member variables of an object either by direct modification or by calling functions that set values to object member variables.
 
@@ -71,7 +73,7 @@ int main()
 } 
 ~~~
 
-6.Class's Member function:-
+## 6.Class's Member function:-
 
 •	Specifies that the function can’t modify the object when it is called as a const member function will not modify the object or call any non-const member functions that may modify the object.
 
@@ -109,7 +111,7 @@ int main()
 ~~~
 
 
-Usage of & operator:
+# Usage of & operator:
 
 1.It is used as as a reference declarator to represent memory address of a variable.
 
